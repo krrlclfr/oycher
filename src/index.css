@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+  @font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900; 
+    font-style: italic;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  li{
+    @apply px-3 py-3;
+  }
+  p{
+    @apply py-1 px-1
+  }
+  /* button{
+    @apply py-2 my-1 px-2;
+  } */
+  .custom-shape-divider-bottom-1669321596 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669321596 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+}
+
+.custom-shape-divider-bottom-1669321596 .shape-fill {
+    fill: #F8FAFC;
+}
+
+  .profile-container{
+
+    width: 350px;
+    height: 350px;
+
+    clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color:  #334155;
+    padding: 5px;
+  }
+  .profile{
+
+    width: 340px;
+    height: 340px;
+
+    clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color: #10B981;
+    padding: 5px;
+  }
+
+  .profile-pic{
+
+    width: 330px;
+    height: 330px;
+
+    clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color: #F8FAFC;
+  }
+
+
+  .card {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+  }
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+    
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+  .switch {
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    /* size of sliding icon -- sun and moon */
+    --size-of-icon: 1.4em;
+    /* it is like a inline-padding of switch */
+    --slider-offset: 0.3em;
+    position: relative;
+    top: 3px;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f5;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#12c8c5,#0cda65 70%);
+    ;
+   transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #303136;
+  }
+  
+  input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }
+  
+  .swiper {
+  width: 100%;
+  height: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* From uiverse.io by @gagan-gv */
+.spinner {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+ }
+ 
+ .loader {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+ }
+ 
+ .loader::before,
+ .loader::after {
+  content: '';
+  border: 3px solid #505065;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  opacity: 1;
+ }
+ 
+ .l1::before,
+ .l1::after {
+  animation: clockwiseZ 2.5s infinite;
+ }
+ 
+ .l2::after,
+ .l2::before {
+  animation: anticlockwiseZ 2.5s infinite;
+ }
+ 
+ @keyframes clockwiseZ {
+  0%, 100% {
+   transform: rotateY(0);
+  }
+ 
+  50% {
+   transform: rotateY(180deg) skew(-10deg, -5deg);
+  }
+ }
+ 
+ @keyframes anticlockwiseZ {
+  0%, 100% {
+
+   transform: rotateX(0);
+  }
+ 
+  50% {
+
+   transform: rotateX(-180deg) skew(10deg, 5deg);
+  }
+ }
+
+
+}
+

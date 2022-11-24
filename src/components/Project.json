@@ -1,0 +1,279 @@
+[
+    {
+        "id": 12,
+        "image": "./image/output/movie/1.png" ,
+        "title": "ArMovies",
+        "lang": ["React JS", "MovieDB API", "TailwindCSS"],
+        "header": "Movies from the API of themovie.org",
+        "project": [
+            "./image/output/movie/1.png", 
+            "./image/output/movie/2.png",
+            "./image/output/movie/3.png", 
+            "./image/output/movie/4.png", 
+            "./image/output/movie/5.png", 
+            "./image/output/movie/6.png", 
+            "./image/output/movie/7.png", 
+            "./image/output/movie/8.png", 
+            "./image/output/movie/9.png", 
+            "./image/output/movie/10.png", 
+            "./image/output/movie/11.png",
+            "./image/output/movie/12.png", 
+            "./image/output/movie/13.png", 
+            "./image/output/movie/14.png", 
+            "./image/output/movie/15.png"
+
+        ],
+        "tag": "web"
+    },
+
+    {
+        "id": 1,
+        "image": "./image/output/inventory/1.png" ,
+        "title": "Pharmacy Inventory System",
+        "lang": ["React JS", "Express JS", "Node JS", "MongoDB"],
+        "header": "Inventory System",
+        "project": [
+            "./image/output/inventory/1.png", 
+            "./image/output/inventory/2.png",
+            "./image/output/inventory/3.png", 
+            "./image/output/inventory/4.png", 
+            "./image/output/inventory/5.png", 
+            "./image/output/inventory/6.png", 
+            "./image/output/inventory/7.png", 
+            "./image/output/inventory/8.png", 
+            "./image/output/inventory/9.png", 
+            "./image/output/inventory/10.png", 
+            "./image/output/inventory/11.png",
+            "./image/output/inventory/12.png", 
+            "./image/output/inventory/13.png", 
+            "./image/output/inventory/14.png", 
+            "./image/output/inventory/15.png", 
+            "./image/output/inventory/16.png", 
+            "./image/output/inventory/17.png", 
+            "./image/output/inventory/18.png", 
+            "./image/output/inventory/19.png", 
+            "./image/output/inventory/20.png", 
+            "./image/output/inventory/21.png", 
+            "./image/output/inventory/22.png", 
+            "./image/output/inventory/23.png" 
+
+        ]
+        ,
+        "tag": "web"
+    },
+    {
+        "id": 2,
+        "image": "./image/output/memestagram/1.jpg",
+        "title": "Memestagram",
+        "lang": ["React JS", "React Native", "Express JS", "Node JS", "MongoDB"],
+        "header": "Cloning instagram a social media app (Under Developement)",
+        "project": [
+            "./image/output/memestagram/1.jpg"
+        ],
+        "tag": "web"
+        
+    }
+    ,
+    {
+        "id": 3,
+        "image": "./image/output/laravel-coffeeshop/1.png",
+        "title": "Oycher Coffee shop",
+        "lang": ["Laravel", "Vue JS"],
+        "header": "E-commerce web application",
+        "project": [
+            "./image/output/laravel-coffeeshop/1.png", 
+            "./image/output/laravel-coffeeshop/2.png",
+            "./image/output/laravel-coffeeshop/3.png", 
+            "./image/output/laravel-coffeeshop/4.png", 
+            "./image/output/laravel-coffeeshop/5.png", 
+            "./image/output/laravel-coffeeshop/6.png", 
+            "./image/output/laravel-coffeeshop/7.png", 
+            "./image/output/laravel-coffeeshop/8.png", 
+            "./image/output/laravel-coffeeshop/9.png", 
+            "./image/output/laravel-coffeeshop/10.png", 
+            "./image/output/laravel-coffeeshop/11.png",
+            "./image/output/laravel-coffeeshop/12.png", 
+            "./image/output/laravel-coffeeshop/13.png" 
+
+        ],
+        "tag": "web"
+    }
+    ,
+    {
+        "id": 4,
+        "image": "./image/output/laravel-crud/1.png",
+        "title": "Laravel CRUD",
+        "lang": ["Laravel"],
+        "header": "Simple CRUD operation using Laravel",
+        "project": [
+            "./image/output/laravel-crud/1.png", 
+            "./image/output/laravel-crud/2.png",
+            "./image/output/laravel-crud/3.png", 
+            "./image/output/laravel-crud/4.png", 
+            "./image/output/laravel-crud/5.png", 
+            "./image/output/laravel-crud/6.png", 
+            "./image/output/laravel-crud/7.png", 
+            "./image/output/laravel-crud/8.png", 
+            "./image/output/laravel-crud/9.png"
+
+        ],
+        "tag": "web"
+        
+    }
+    ,
+    {
+        "id": 5,
+        "image": "./image/output/bms/1.png",
+        "title": "WBBMSBCC",
+        "lang": ["HTML", "CSS", "Javascript", "PHP", "Bootstrap"],
+        "header": "A Web Based Barangay Management System in Barangay 12 Caloocan City",
+        "project": [
+            "./image/output/bms/1.png", 
+            "./image/output/bms/2.png",
+            "./image/output/bms/3.png", 
+            "./image/output/bms/4.png", 
+            "./image/output/bms/5.png", 
+            "./image/output/bms/6.png", 
+            "./image/output/bms/7.png", 
+            "./image/output/bms/8.png", 
+            "./image/output/bms/9.png", 
+            "./image/output/bms/10.png", 
+            "./image/output/bms/11.png",
+            "./image/output/bms/12.png", 
+            "./image/output/bms/13.png", 
+            "./image/output/bms/14.png", 
+            "./image/output/bms/15.png", 
+            "./image/output/bms/16.png", 
+            "./image/output/bms/17.png", 
+            "./image/output/bms/18.png", 
+            "./image/output/bms/19.png", 
+            "./image/output/bms/20.png", 
+            "./image/output/bms/21.png"  
+        ],
+        "tag": "web"
+    }
+    ,
+    {
+        "id": 6,
+        "image": "./image/output/calculator/1.png",
+        "title": "Calculator",
+        "lang": ["Python"],
+        "header": "Calculator using Python, PyQt5",
+        "project": [
+            "./image/output/calculator/1.png", 
+            "./image/output/calculator/2.png",
+            "./image/output/calculator/3.png", 
+            "./image/output/calculator/4.png", 
+            "./image/output/calculator/5.png" 
+
+        ],
+        "tag": "desktop"
+    }
+    ,
+    {
+        "id": 7,
+        "image": "./image/output/arcs/1.png",
+        "title": "ARCS",
+        "lang": ["Java", "MySQL"],
+        "header": "Animal Rehabilitation Center System in Java",
+        "project": [
+            "./image/output/arcs/1.png", 
+            "./image/output/arcs/2.png",
+            "./image/output/arcs/3.png", 
+            "./image/output/arcs/4.png", 
+            "./image/output/arcs/5.png", 
+            "./image/output/arcs/6.png", 
+            "./image/output/arcs/7.png", 
+            "./image/output/arcs/8.png", 
+            "./image/output/arcs/9.png", 
+            "./image/output/arcs/10.png", 
+            "./image/output/arcs/11.png",
+            "./image/output/arcs/12.png"
+
+        ],
+        "tag": "desktop"
+    }
+    ,
+    {
+        "id": 8,
+        "image": "./image/output/rv/1.png",
+        "title": "Red Velvet Website" ,
+        "lang": ["HTML", "CSS", "Javascript"],
+        "header": "Static website for Red Velvet",
+        "project": [
+            "./image/output/rv/1.png", 
+            "./image/output/rv/2.png",
+            "./image/output/rv/3.png", 
+            "./image/output/rv/4.png", 
+            "./image/output/rv/5.png", 
+            "./image/output/rv/6.png", 
+            "./image/output/rv/7.png", 
+            "./image/output/rv/8.png", 
+            "./image/output/rv/9.png", 
+            "./image/output/rv/10.png", 
+            "./image/output/rv/11.png",
+            "./image/output/rv/12.png", 
+            "./image/output/rv/13.png", 
+            "./image/output/rv/14.png"
+
+        ],
+        "tag": "web"
+    }
+    ,
+    {
+        "id": 9,
+        "image": "./image/output/face-recognition/1.png",
+        "title": "FRIAM",
+        "lang": ["Python"],
+        "header": "Face Recognition in Attendance Monitoring System",
+        "project": [
+            "./image/output/face-recognition/1.png", 
+            "./image/output/face-recognition/2.png",
+            "./image/output/face-recognition/3.png", 
+            "./image/output/face-recognition/4.png", 
+            "./image/output/face-recognition/5.png", 
+            "./image/output/face-recognition/6.png", 
+            "./image/output/face-recognition/7.png", 
+            "./image/output/face-recognition/8.png", 
+            "./image/output/face-recognition/9.png", 
+            "./image/output/face-recognition/10.png", 
+            "./image/output/face-recognition/11.png"
+
+        ],
+        "tag": "desktop"
+    }
+    ,
+    {
+        "id": 10,
+        "image": "./image/output/system/1.png",
+        "title": "DDAJJ E-Loading shop" ,
+        "lang": ["Python", "MySQL"],
+        "header": "Desktop Application in Python Tkinter",
+        "project": [
+            "./image/output/system/1.png", 
+            "./image/output/system/2.png",
+            "./image/output/system/3.png", 
+            "./image/output/system/4.png", 
+            "./image/output/system/5.png", 
+            "./image/output/system/6.png", 
+            "./image/output/system/7.png"
+
+        ],
+        "tag": "desktop"
+    },
+    {
+        "id": 11,
+        "image": "./image/output/rps/1.png",
+        "title": "RPS",
+        "lang": ["HTML", "CSS", "Javascript"],
+        "header": "Simple game in javascript Rock, Paper and Scissors",
+        "project": [
+            "./image/output/rps/1.png", 
+            "./image/output/rps/2.png",
+            "./image/output/rps/3.png" 
+
+        ],
+        "tag": "program"
+    }
+
+]
